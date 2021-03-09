@@ -56,6 +56,100 @@ bin/rake gitlab:update_project_templates[$name]
 as above, where `$name` is the name of the template that you want to be updated.
 
 
+
+
+
+
+
+## Issues and Pull Request
+
+Every thing starts with issue and ends with pull Request.
+Issue maybe a task, user story, user story or maybe a bug. 
+It maybe anything thing like that, theretofore there are many types of templates for and issue.
+
+### Issue templates
+
+#### User story 
+
+```plain
+### Description
+
+As a <user or stakeholder type>
+I want <some software feature>
+So that <some business value>
+
+
+### Acceptance criteria
+
+[ ] Given <how things begin>
+[ ] When <action taken>
+[ ] Then <outcome of taking action>
+```
+
+#### Feature request
+
+```
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
+
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
+
+**Additional context**
+Add any other context or screenshots about the feature request here.
+```
+
+#### Bug report
+
+```plain
+**Describe the bug**
+A clear and concise description of what the bug is.
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
+
+**Expected behavior**
+A clear and concise description of what you expected to happen.
+
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
+
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
+
+**Additional context**
+Add any other context about the problem here.
+```
+
+### Labels
+
+Label          | Description
+---            | --- 
+`bug`          | Indicates an unexpected problem or unintended behavior.
+`dublicate`    | Indicates similar issues or pull request.
+`enhancment`   | Indicates new feature request.
+`help wanted`  | Indicates that a maintainer wants help on an issue or pull request.
+`invalid`      | Indicates that an issue or pull requets is no longer relevant.
+`question `    | Indicates that an issue or pull request needs more information. 
+`wontfix`      | Indicates that work won't continue on an issue or pull request.
+
+
+
 ## Commit Messages
 
 ### Message Structure
