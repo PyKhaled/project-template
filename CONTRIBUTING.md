@@ -141,7 +141,7 @@ Add any other context about the problem here.
 Label          | Description
 ---            | --- 
 `bug`          | Indicates an unexpected problem or unintended behavior.
-'documentation'| Improvements or additions to documentation
+`documentation`| Improvements or additions to documentation
 `dublicate`    | Indicates similar issues or pull request.
 `enhancment`   | Indicates new feature request.
 `help wanted`  | Indicates that a maintainer wants help on an issue or pull request.
