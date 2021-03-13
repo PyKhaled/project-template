@@ -1,7 +1,7 @@
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+email, or any other method with the owners of this repository before making a change.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
@@ -10,19 +10,21 @@ Please note we have a code of conduct, please follow it in all your interactions
 If you'd like to contribute a new built-in project template to be distributed with GitLab, please do the following:
 
 1. Create a new public project with the project content you'd like to contribute in a namespace of your choosing. You can view a working example [here](https://gitlab.com/gitlab-org/project-templates/dotnetcore).
-   * Projects should be as simple as possible and free of any unnecessary assets or dependencies.
+   - Projects should be as simple as possible and free of any unnecessary assets or dependencies.
 1. When the project is ready for review, please create a new issue in [gitlab-ce](https://gitlab.com/gitlab-org/gitlab/issues) with a link to your project.
-   * In your issue, `@` mention the relevant Backend Engineering Manager and Product Manager for the [Templates category](https://about.gitlab.com/handbook/product/categories/#import-group).
+   - In your issue, `@` mention the relevant Backend Engineering Manager and Product Manager for the [Templates category](https://about.gitlab.com/handbook/product/categories/#import-group).
 
-To make the project template available when creating a new project, the vendoring process will have to be completed: 
+To make the project template available when creating a new project, the vendoring process will have to be completed:
 
 1. Create a working template ([example](https://gitlab.com/gitlab-org/project-templates/dotnetcore))
 1. Add boilerplate to
-    - `gitlab/lib/gitlab/project_template.rb`,
-    - `gitlab/spec/lib/gitlab/project_template.rb`, and
-    - `gitlab/app/assets/javascripts/projects/project_new.js`.
 
-    See MR [!25486](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/25486) for an example
+   - `gitlab/lib/gitlab/project_template.rb`,
+   - `gitlab/spec/lib/gitlab/project_template.rb`, and
+   - `gitlab/app/assets/javascripts/projects/project_new.js`.
+
+   See MR [!25486](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/25486) for an example
+
 1. Run the following in the `gitlab` project, where `$name` is the name you gave the template in `gitlab/lib/gitlab/project_template.rb`
    ```bash
    bin/rake gitlab:update_project_templates[$name]
@@ -55,21 +57,15 @@ bin/rake gitlab:update_project_templates[$name]
 
 as above, where `$name` is the name of the template that you want to be updated.
 
-
-
-
-
-
-
 ## Issues and Pull Request
 
-Every thing starts with issue and ends with pull Request.
-Issue maybe a task, user story, user story or maybe a bug. 
-It maybe anything thing like that, theretofore there are many types of templates for and issue.
+Every thing starts with an issue and ends with a pull Request.
+Issue is a task, user story, feature request or maybe a bug.
+It maybe anything thing like that, theretofore there are many types of templates for you create a describtive issue.
 
 ### Issue templates
 
-#### User story 
+#### User story
 
 ```plain
 ### Description
@@ -138,18 +134,16 @@ Add any other context about the problem here.
 
 ### Labels
 
-Label          | Description
----            | --- 
-`bug`          | Indicates an unexpected problem or unintended behavior.
-`documentation`| Improvements or additions to documentation
-`dublicate`    | Indicates similar issues or pull request.
-`enhancment`   | Indicates new feature request.
-`help wanted`  | Indicates that a maintainer wants help on an issue or pull request.
-`invalid`      | Indicates that an issue or pull requets is no longer relevant.
-`question `    | Indicates that an issue or pull request needs more information. 
-`wontfix`      | Indicates that work won't continue on an issue or pull request.
-
-
+| Label           | Description                                                         |
+| --------------- | ------------------------------------------------------------------- |
+| `bug`           | Indicates an unexpected problem or unintended behavior.             |
+| `documentation` | Improvements or additions to documentation                          |
+| `dublicate`     | Indicates similar issues or pull request.                           |
+| `enhancment`    | Indicates new feature request.                                      |
+| `help wanted`   | Indicates that a maintainer wants help on an issue or pull request. |
+| `invalid`       | Indicates that an issue or pull requets is no longer relevant.      |
+| `question `     | Indicates that an issue or pull request needs more information.     |
+| `wontfix`       | Indicates that work won't continue on an issue or pull request.     |
 
 ## Commit Messages
 
@@ -166,19 +160,17 @@ footer
 The title consists of the type of the message and subject.
 ```
 
-
 ### The Type
 
 The type is contained within the title and can be one of these types:
 
-* feat: a new feature
-* fix: a bug fix
-* docs: changes to documentation
-* style: formatting, missing semi colons, etc; no code change
-* refactor: refactoring production code
-* test: adding tests, refactoring test; no production code change
-* chore: updating build tasks, package manager configs, etc; no production code change
-
+- feat: a new feature
+- fix: a bug fix
+- docs: changes to documentation
+- style: formatting, missing semi colons, etc; no code change
+- refactor: refactoring production code
+- test: adding tests, refactoring test; no production code change
+- chore: updating build tasks, package manager configs, etc; no production code change
 
 ### The Subject
 
@@ -193,6 +185,7 @@ Not all commits are complex enough to warrant a body, therefore it is optional a
 When writing a body, the blank line between the title and the body is required and you should limit the length of each line to no more than 72 characters.
 
 ### The Footer
+
 The footer is optional and is used to reference issue tracker IDs.
 
 ### Example Commit Message
@@ -229,12 +222,11 @@ See also: #456, #789
 
 ## Pull Request Process
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
+1. Ensure any install or build dependencies are removed before the end of the layer when doing a
    build.
-2. Update the README.md with details of changes to the interface, this includes new environment 
+2. Update the README.md with details of changes to the interface, this includes new environment
    variables, exposed ports, useful file locations and container parameters.
 3. Increase the version numbers in any examples files and the README.md to the new version that this
    Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
+4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you
    do not have permission to do that, you may request the second reviewer to merge it for you.
-

@@ -1,4 +1,5 @@
 # Project Title
+
 > Additional information or tagline
 
 A brief description of your project, what it is used for and how does life get
@@ -14,11 +15,10 @@ awesome when someone starts to use it.
 ## Features
 
 What's all the bells and whistles this project can perform?
-* What's the main functionality
-* You can also do another thing
-* If you get really randy, you can even do this
 
-
+- What's the main functionality
+- You can also do another thing
+- If you get really randy, you can even do this
 
 ## Getting Started
 
@@ -50,7 +50,6 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-
 ### Initial Configuration
 
 Some projects require initial configuration (e.g. access tokens or keys, `npm i`).
@@ -60,6 +59,7 @@ Here you should write what are all of the configurations a user can enter when
 using the project.
 
 #### Argument 1
+
 Type: `String`  
 Default: `'default value'`
 
@@ -67,11 +67,13 @@ State what an argument does and how you can use it. If needed, you can provide
 an example below.
 
 Example:
+
 ```bash
 awesome-project "Some other value"  # Prints "You're nailing this readme!"
 ```
 
 #### Argument 2
+
 Type: `Number|Boolean`  
 Default: 100
 
@@ -135,18 +137,15 @@ packagemanager deploy awesome-project -s server.com -u username -p password
 
 And again you'd need to tell what the previous code actually does.
 
-
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+- [Maven](https://maven.apache.org/) - Dependency Management
+- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 
 ## Links
 
@@ -164,20 +163,18 @@ links to humans using your project. You can include links like:
   - Your other project: https://github.com/your/other-project/
   - Someone else's project: https://github.com/someones/awesome-project/
 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-The code in this project is licensed under [MIT](LICENSE) license.
+The code in this project is licensed under [MIT](./LICENSE.txt) license.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
